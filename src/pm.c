@@ -5,6 +5,7 @@ A high-level C interface for monitoring processes.
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <libc.h>
 
 
 int main(int argc, char const *argv[])

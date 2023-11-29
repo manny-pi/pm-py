@@ -4,4 +4,12 @@
 
 ## Subcommands and options
 
+- `mem`: Memory management
+- `iam`: Identity and Access Management
+- `cmt`: Creation and Modification data
+- `net`: Networking
+- `ssh`: Secure Shell (SSH) Login
+
+
+
 ### Compatible systems
