@@ -15,7 +15,8 @@ from pathlib import Path
 
 # Supported commands
 # = = = = = = = = = = = = = = = = = = = = = = = 
-# Identity and Access Management
+# Creation and Modification data
+# - - - - - - - - - - - - - - - - - - - - - - - -
 def get_creation_time(file: [str, Path]):
     """Returns the creation time of a resource `file`.
     
@@ -23,14 +24,41 @@ def get_creation_time(file: [str, Path]):
         file: `str` or `pathlib.Path` object. Must be absolute path if 
         the file is not located in the working directory.
     returns:
-        
+    
     """
 
 def get_modification_teim(file: [str, Path]):
-    """Returns the time when a resource was last modified."""
+    """Returns the time when a resource was last modified.
+
+    args:
+        file: `str` or `pathlib.Path` object. Must be absolute path if 
+        the file is not located in the working directory.
+    returns:
+    
+    """
 
 def get_access_time(file: [str, Path]): 
-    """Returns the access time of a resource."""
+    """Returns the access time of a resource.
+    
+    args:
+        file: `str` or `pathlib.Path` object. Must be absolute path if 
+        the file is not located in the working directory.
+    returns:
+    """
+    
+
+# Identity and Access Management
+# - - - - - - - - - - - - - - - - - - - - - - - -
+def get_owner(file: [str, Path]):
+    """Returns the owner of a resource .
+    
+    args:
+        file: `str` or `pathlib.Path` object. Must be absolute path if 
+        the file is not located in the working directory.
+    returns:
+    """
+    
+
 
 def setup():
     parser = argparse.ArgumentParser(
